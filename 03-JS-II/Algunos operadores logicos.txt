@@ -1,0 +1,31 @@
+Explicaciones de los siguientes conceptos
+
+for: La mayoría del software se ejecuta en bucles, evaluando expresiones una y otra vez hasta que devuelve lo que estamos buscando o se detiene después de cierto tiempo. 
+Javascript tiene dos expresiones de bucle incorporadas y hoy veremos la primera, el bucle "for".
+
+Los bucles for tienen una sintaxis única, similar a la instrucción if, pero un poco más compleja. 
+Primero tenemos la palabra clave for, seguida de paréntesis y luego abrir y cerrar llaves. Dentro de los paréntesis necesitaremos tres cosas. 
+Primero, debemos declarar una variable, esto es sobre lo que se repetirá el bucle. 
+Entonces tendremos una expresión condicional, el ciclo continuará sucediendo hasta que esta declaración sea false. 
+Tercero, incrementaremos nuestra variable. Las tres declaraciones están separadas por un punto y coma.
+
+for (let i = 0                 ; i < 10                 ; i++          ) {
+// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
+    console.log(i);
+}
+En este ejemplo, vemos que inicialmente establecemos nuestra variable i en 0, el ciclo se ejecutará y cada vez que llegue al final, aumentará el contador en uno. 
+El bucle for evaluará la expresión condicional. Si es true, se ejecutará nuevamente, si es false dejará de funcionar.
+
+
+&&: Este es operador lógico de nombre "Y" ("AND"). Está escrito con dos símbolos (&&).
+este operador evalua dos expresiones arrojando resultados por ejemplo, verdadero si AMBAS expresiones son true. 
+Si uno (o ambos) de ellos es falso, este operador devolverá false.
+
+
+||: Este es operador lógico de nombre "Ó" ("OR"). Está escrito con dos barras verticales (||).
+Determinará si una de las expresiones es true. Devolverá true si una (o ambas) de las expresiones es true. 
+Devolverá false si AMBAS expresiones son false.
+
+
+!: Este es operador lógico de nombre "NOT" ("NO"). Está escrito como un solo signo de exclamación (!). 
+ El operador NOT devolverá el valor booleano (representan dos valores falso o verdadero).
