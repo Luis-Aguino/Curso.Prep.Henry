@@ -1,0 +1,3 @@
+Arrays: Son un conjunto de elementos que agrupados para cumplir con con un objetivo este objetivo puede 
+ser cuidar una mansana por turnos, todos la pueden estar cuidando lo que hace que si uno del grupo 
+que se va hay remplazo en ese mismo grupo para cuidar la manzana.
