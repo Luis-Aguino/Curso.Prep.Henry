@@ -1,0 +1,25 @@
+Objetos: Un objeto es una colección de propiedades, es una propiedad independiente con propiedades y tipos 
+al cuan se le piede modificar sus propiedades como el color la forma etc.
+
+Propiedades: una propiedad es una asociación entre un nombre y un valor.
+este valor puede ser una funcion ligada ala s carateristicas del objeto.
+ 
+Métodos:es cuendo el valor de una propieda es una funcion el cual es utulizado para adr forma al objeto
+
+Bucle for…in: Es una distribucion de propiedades enumerables de un objeto codificado por cadenas.
+(ignorando los codificados por Símbolos, incluidas las propiedades enumerables heredadas. 
+EJEMPLO:
+const object = { a: 1, b: 2, c: 3 };
+
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
+}
+
+// expected output:
+// "a: 1"
+// "b: 2"
+// "c: 3"
+
+Notación de puntos vs notación de corchetes:La notación de puntos es una representación de
+los elementos de datos similar al nodo que lo contiene mientras que, la notacion de corchetes
+es utilizada para gerneralizar una representacion de los elementos
