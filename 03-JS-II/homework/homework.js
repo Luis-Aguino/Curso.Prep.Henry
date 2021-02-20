@@ -61,7 +61,8 @@ function colors(color) {
   switch (color) {case "green": return "This is green"}
   switch (color) {case "orange": return "This is orange"}
   return "Color not found"
-}
+
+  }
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5

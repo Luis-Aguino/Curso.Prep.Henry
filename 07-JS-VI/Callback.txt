@@ -1,0 +1,3 @@
+El callback son un grupo de llamadas a funciones que contienen datos que pueden ser numericos o
+alfabetos u tambien alfanumericos, permitiendo pasar esta funcion como argumento de 
+la funcion destacada dentro de un conjuto de datos.
