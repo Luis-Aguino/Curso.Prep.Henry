@@ -1,0 +1,4 @@
+prototype: permite extender o sobreescribir el comportamiento de un objeto,
+
+Constructors (de Clases): Se llama al constructor cuando se crea un objeto de una clase. 
+Se puede utilizar para establecer valores iniciales para atributos de objeto;
